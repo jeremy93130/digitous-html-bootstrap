@@ -43,11 +43,8 @@
         </div>
     </nav>
 
-    <div class="container mt-3 border border-1 border-danger">
-        <div class="row">
-             <p class="pt-3 text-danger bg-danger bg-opacity-25">Une erreur est survenue , veuillez reessayer plus tard ou recharger la page</p>
-        </div>
-       
+    <div class="alert alert-danger container" role="alert">
+        Une erreur serveur est survenue. Veuillez raffraichir la page ou réessayer plus tard.
     </div>
 
 
@@ -67,8 +64,39 @@
         </div>
 
     </div>
+    <div class="container col-2">
+        <div class="d-flex">
+            <div id="liveAlertPlaceholder"></div>
+            <button type="button" class="btn btn-primary ms-0" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Sign up Newsletter
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Newsletter</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body container ">
+                            <span class="input-group-text " id="addon-wrapping">E-mail
+                                <input type="text" class="form-control ms-2" placeholder="" aria-label="Email"
+                                    aria-describedby="addon-wrapping"></span>
+                            <div class="modal-footer justify-content-start ps-0">
+                                <button type="button" class="btn btn-primary">S'abonner</button>
 
+                            </div>
+                        </div>
 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+
+    </div>
 
     <div class="container mt-5">
         <div class="row">
