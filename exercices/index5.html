@@ -24,8 +24,14 @@
                     <li class="nav-item">
                         <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled text-muted" href="#">Team</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link text-muted btn dropdown-toggle" href="#" type="button"
+                            id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">Team</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                            <li><a class="dropdown-item ms-2" href="#">Vincent</a></li>
+                            <li><a class="dropdown-item ms-2" href="#">Béatrice</a></li>
+                            <li><a class="dropdown-item ms-2" href="#">Rosita</a></li>
+                        </ul>
                     </li>
                     </li>
                     <li class="nav-item">
@@ -36,6 +42,13 @@
             </div>
         </div>
     </nav>
+
+    <div class="container mt-3 border border-1 border-danger">
+        <div class="row">
+             <p class="pt-3 text-danger bg-danger bg-opacity-25">Une erreur est survenue , veuillez reessayer plus tard ou recharger la page</p>
+        </div>
+       
+    </div>
 
 
     <div class='container bg-light mb-5 pb-5'>
